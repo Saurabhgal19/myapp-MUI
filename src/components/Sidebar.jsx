@@ -8,7 +8,7 @@ import ListItemButton from '@mui/material/ListItemButton';
 import {AccountBox, Article, Group, Home, ModeNight, Person, Storefront} from "@mui/icons-material";
 import SettingsIcon from '@mui/icons-material/Settings';
 
-const Sidebar = () => {
+const Sidebar = ({mode, setMode}) => {
   return (
     <Box flex={1} p={2} sx={{display:{xs:"none", sm: "block" } }}>
       <Box position="fixed">
@@ -82,7 +82,7 @@ const Sidebar = () => {
               <ListItemIcon component="a" href="#simple-list">
                 <ModeNight/>
               </ListItemIcon>
-                <Switch/>
+                <Switch />
             </ListItemButton>
           </ListItem>
         </List>

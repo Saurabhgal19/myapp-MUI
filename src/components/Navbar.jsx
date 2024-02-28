@@ -44,7 +44,7 @@ const Navbar = () => {
     <AppBar position='sticky'>
     <StyledToolbar>
         <Typography variant='h6' sx={{
-            display:{xs:"none", sm:"block"}}}> LAMA Dev </Typography>
+            display:{xs:"none", sm:"block"}}}> Chat Book </Typography>
         <Pets sx={{
             display:{xs:"block", sm:"none"}}}/>
             <Search><InputBase placeholder='Search'/></Search>
